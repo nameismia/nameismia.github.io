@@ -1,13 +1,15 @@
 .nm {
+    font-family: monospace, serif;
     position: absolute;
     margin-left: 30px;
     margin-top: 30px;
 }
 
 .name_a {
+    font-family: monospace, serif;
     position: absolute;
-    margin-left: 1500px;
-    margin-top: 100px;
+    margin-left: 1475px;
+    margin-top: 136px;
     width: 10px;
     height: 10px;
     background-color: #ffff00;
@@ -34,8 +36,9 @@
     left: 69px;
     top: 547px;
 }
+
 .bface {
-    position:absolute;
+    position: absolute;
     left: 214px;
     top: 243px;
 }

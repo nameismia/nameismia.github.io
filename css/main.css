@@ -1,0 +1,101 @@
+.nm {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.name_a {
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 100px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffff00;
+    transform: rotate(90deg);
+
+}
+
+.eve {
+    width: 600px;
+    background-color: #ffff00;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 25%;
+}
+
+.baseface {
+    position: absolute;
+    left: 103px;
+    top: 214px;
+}
+
+.green {
+    position: absolute;
+    left: 69px;
+    top: 547px;
+}
+.bface {
+    position:absolute;
+    left: 214px;
+    top: 243px;
+}
+
+.blue {
+    position: absolute;
+}
+
+.pnk {
+    position: absolute;
+    left: 240px;
+    top: 260px;
+}
+
+.wsh {
+    position: absolute;
+    left: 293px;
+    top: 350px;
+}
+
+.ysh {
+    position: absolute;
+    left: 337px;
+    top: 440px;
+}
+
+.bsh {
+    position: absolute;
+    left: 284px;
+    top: 247px;
+}
+
+.bbshape {
+    position: absolute;
+    left: 229px;
+    top: 317px;
+}
+
+.csh {
+    position: absolute;
+    left: 294px;
+    top: 352px;
+}
+
+.nemo {
+    position: absolute;
+    left: 325px;
+    top: 78px;
+}
+
+.white {
+    position: absolute;
+    left: 229px;
+    top: 315px;
+}
+
+.ho {
+    float: left;
+    width: 50px;
+    height: 80px;
+    left: 20px;
+    top: 199px;
+}

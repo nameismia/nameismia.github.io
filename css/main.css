@@ -1,12 +1,12 @@
 .nm {
-    font-family: 'Cantarell', sans-serif;
+    font-family: 'Radley', serif;
     position: absolute;
     margin-left: 30px;
     margin-top: 30px;
 }
 
 .name_a {
-    font-family: 'Cantarell', sans-serif;
+    font-family: 'Radley', serif;
     position: absolute;
     margin-left: 1475px;
     margin-top: 136px;
@@ -101,3 +101,11 @@
     left: 20px;
     top: 199px;
 }
+
+@font-face {
+    font-family: 'Radley';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cardo'), local('Cardo-Regular'), url(http://fonts.gstatic.com/s/cardo/v7/f9GbO0_LnwwuaRC6yAh0JKCWcynf_cDxXwCLxiixG1c.woff2) format('woff2'), url(http://fonts.gstatic.com/s/cardo/v7/c6Zi_ulq7hv-avk-G9Yut6CWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
+

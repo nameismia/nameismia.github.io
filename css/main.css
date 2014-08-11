@@ -1,12 +1,14 @@
 
-.name {position: absolute;
+.name {
+    position: absolute;
     font-family: 'Radley', serif;
-    width:auto;
-    margin-left:130px;
+    width: auto;
+    margin-left: 130px;
     margin-top: 180px;
 }
 
-.name_a {position: absolute;
+.name_a {
+    position: absolute;
     font-family: 'Radley', serif;
     color: blue;
     line-height: 100%;

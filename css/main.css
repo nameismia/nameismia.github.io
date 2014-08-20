@@ -1,3 +1,4 @@
+/*
 
 .name {
     position: absolute;
@@ -112,3 +113,141 @@
     src: local('Cardo'), local('Cardo-Regular'), url(http://fonts.gstatic.com/s/cardo/v7/f9GbO0_LnwwuaRC6yAh0JKCWcynf_cDxXwCLxiixG1c.woff2) format('woff2'), url(http://fonts.gstatic.com/s/cardo/v7/c6Zi_ulq7hv-avk-G9Yut6CWcynf_cDxXwCLxiixG1c.woff) format('woff');
 }
 
+*/
+
+
+
+
+
+
+
+
+
+/*CLEARFIX*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+.container {
+    margin: 0px auto;
+    width: 100%;
+}
+
+div {
+    display: block;
+}
+
+#header {
+    float: left;
+    width: 100%;
+    margin: 80px 0 50px 0;
+}
+
+#header h1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 5px 0;
+    font-family: "proxima-nova", Georgia;
+    font-size: 2.2em;
+    font-weight: lighter;
+    color: #2f353e;
+}
+
+#header h1 a {
+    display: inline-block;
+    color: inherit;
+    font-weight: inherit;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-bottom: 2px solid #c2e065;
+}
+
+#header h1 a:hover {
+    position: relative;
+    transition: all 0.3s ease-in;
+    border-bottom: 2px solid orangered;;
+}
+
+#showall .image a .title em {
+    font-weight: inherit;
+    font-style: normal;
+    display: inline;
+    border-bottom: 3px solid;
+}
+
+#showall .image.half {
+    height: 478px;
+    width: 420px;
+    margin-right: 5px;
+}
+
+#showall .image.prevue {
+    background-color: #8a7c8d;
+}
+
+#showall .image {
+    float: left;
+    width: 100%;
+    background: #fbfbfb;
+    margin: 0 0 11px 0;
+    overflow: hidden;
+}
+
+.menu {
+    font-family: 'Radley', serif;
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+}
+
+@font-face {
+    font-family: 'Radley';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cardo'), local('Cardo-Regular'), url(http://fonts.gstatic.com/s/cardo/v7/f9GbO0_LnwwuaRC6yAh0JKCWcynf_cDxXwCLxiixG1c.woff2) format('woff2'), url(http://fonts.gstatic.com/s/cardo/v7/c6Zi_ulq7hv-avk-G9Yut6CWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
+
+h2 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "proxima-nova", Georgia;
+    font-weight: 800;
+    font-weight: lighter;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1;
+    font-family: inherit;
+}
